@@ -49,7 +49,7 @@ Blue/orange: Non-stock (Bear and Mini-Bear) parts.
 Black: Can be used from the stock Prusa Mini.
 Ready-to-print STL files will follow as soon as I print the parts and complete the transition. Moreover, if there is enough interest I will accommodate a guide for this version.
 
-## Disclaimer
+### Disclaimer
 
 The Original Prusa Mini+ is an amazing little printer and as far as I am concerned the print quality is incredible for the price and ease of use. I chose to proceed with this build because as many others, I enjoy tinkering with 3D printers towards the possibility of improvement. In this case, towards a possibly more robust frame, which would (in theory at least) allow to maintain the same quality at higher accelerations with a direct-drive extruder to ease printing of flexible filaments. Keep in mind, as with any DYI assembly, there is always a chance of the final produced print quality to suffer, as it depends on the sourced hardware quality, part design and on the actual skills and experience put into building.
 
