@@ -1,7 +1,7 @@
 # Prusa-MINI-bear-mod-Z10
 Bear mod adaptation for Prusa MINI(+) based on original 10mm Z rods
 
- <h2 style="text-align: center;">---------------Work in Progress---------------</h2>
+## ---------------Work in Progress---------------
 
 `Parts are currently being printed. An update will follow soon with the realized mod.`
 
@@ -13,15 +13,13 @@ Bear mod adaptation for Prusa MINI(+) based on original 10mm Z rods
 - Supported (dual) Z-axis based on the stock 10mm rods
 - MK3S printhead
 - Reuse of as many parts as possible
-- Robust frame
+- Increased frame robustsness
 - Reduced noise levels (to be tested)
 - Maintenance friendly
 - Compatible with stock firmware (verification pending)
 - Open-source
 
 ## Background
-
-*Disclaimer: The Original Prusa Mini+ is an amazing little printer and as far as I am concerned the print quality is incredible for the price and ease of use. I chose to proceed with this build because as many others, I enjoy tinkering with 3D printers towards the possibility of improvement. In this case, towards a possibly more robust frame, which would (in theory at least) allow to maintain the same quality at higher accelerations with a direct-drive extruder to ease printing of flexible filaments. Keep in mind, as with any DYI assembly, there is always a chance of the final produced print quality to suffer, as it depends on the sourced hardware quality, part design and on the actual skills and experience put into building.*
 
 There are quite a few models and tutorials online (mainly in [Printables](https://www.printables.com/search/all?q=prusa%20bear%20mini)) to build your Prusa Mini Bear mod, but as soon as you try to dive into versions and part compatibility, it becomes chaotic. Before printing, I wanted to ensure that all parts are well aligned and compatible with each other, but as far as I could find, there was no published CAD version with a complete model. Either I had to make a collection and hope for the best, or work on my own remix.
 
@@ -40,8 +38,8 @@ For the extruder, I started from the stock part as released by Prusa Research: h
 
 Parts that are not modified:
 
-Buddy board case: [Link](https://github.com/prusa3d/Original-Prusa-MINI/blob/master/DOCUMENTATION/ELECTRONICS/mini-motor-kit.pdf)<br />
-Y-rod-holders, Y-idler-tension, 2040 end caps: [Link](https://github.com/gregsaun/prusa_i3_bear_upgrade)
+- Buddy board case (3DPGVA): [Link](https://github.com/prusa3d/Original-Prusa-MINI/blob/master/DOCUMENTATION/ELECTRONICS/mini-motor-kit.pdf)
+- Y-rod-holders, Y-idler-tension, 2040 end caps (gregsaun) and cable clips: [Link](https://github.com/gregsaun/prusa_i3_bear_upgrade)
 
 ---
 
@@ -50,6 +48,10 @@ Pictures color coding (printed parts):
 Blue/orange: Non-stock (Bear and Mini-Bear) parts. 
 Black: Can be used from the stock Prusa Mini.
 Ready-to-print STL files will follow as soon as I print the parts and complete the transition. Moreover, if there is enough interest I will accommodate a guide for this version.
+
+## Disclaimer
+
+The Original Prusa Mini+ is an amazing little printer and as far as I am concerned the print quality is incredible for the price and ease of use. I chose to proceed with this build because as many others, I enjoy tinkering with 3D printers towards the possibility of improvement. In this case, towards a possibly more robust frame, which would (in theory at least) allow to maintain the same quality at higher accelerations with a direct-drive extruder to ease printing of flexible filaments. Keep in mind, as with any DYI assembly, there is always a chance of the final produced print quality to suffer, as it depends on the sourced hardware quality, part design and on the actual skills and experience put into building.
 
 ## Print settings
 
