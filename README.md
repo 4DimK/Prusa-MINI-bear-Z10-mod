@@ -61,7 +61,7 @@ Ready-to-print STL files will follow as soon as I print the parts and complete t
 
 ## Manual
 
-`To Follow`
+`To Follow (maybe)`
 
 
 ## License
