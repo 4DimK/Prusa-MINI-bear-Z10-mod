@@ -29,7 +29,7 @@ For the extruder, I started from the stock part as released by Prusa Research: h
 Parts that are not modified:
 
 Buddy board case: [Link](https://github.com/prusa3d/Original-Prusa-MINI/blob/master/DOCUMENTATION/ELECTRONICS/mini-motor-kit.pdf)
-Y-rod-holders, Y-idler-tension, 2040 end caps: Link
+Y-rod-holders, Y-idler-tension, 2040 end caps: [Link](https://github.com/gregsaun/prusa_i3_bear_upgrade)
 
 Pictures color coding (printed parts): 
 
