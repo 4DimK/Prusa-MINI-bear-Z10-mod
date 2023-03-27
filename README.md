@@ -1,5 +1,5 @@
 # Prusa-MINI-bear-mod-Z10
-Bear mod for Prusa MINI(+) based on original 10mm Z rods
+Bear mod adaptation for Prusa MINI(+) based on original 10mm Z rods
 
  <h2 style="text-align: center;">---------------Work in Progress---------------</h2>
 
