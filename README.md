@@ -2,7 +2,7 @@
 Bear mod for Prusa MINI(+)
 
 
-##-----Work in Progress------##
+## -----Work in Progress------ ##
 
 I have not printed the parts yet. An update will follow soon with the realized mod.
 
