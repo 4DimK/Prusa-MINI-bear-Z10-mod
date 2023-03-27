@@ -14,9 +14,9 @@ Bear mod for Prusa MINI(+) based on original 10mm Z rods
 - MK3S printhead
 - Reuse of as many parts as possible
 - Robust frame
-- Reduced noise levels
+- Reduced noise levels (to be tested)
 - Maintenance friendly
-- Compatible with stock firmware
+- Compatible with stock firmware (verification pending)
 - Open-source
 
 ## Background
