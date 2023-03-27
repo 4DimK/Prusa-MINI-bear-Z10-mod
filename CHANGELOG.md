@@ -3,7 +3,7 @@
 ## [v0.3] - 27/03/2023
 ### Changed
 Realized that MK3S and Prusa MINI use different leadscrew specifications, hence gregsauns leadscrew caps are not compatible with this mod. 
-- Designed and tested new MINI(+) compatible leadscrew caps for TR8x4(p2x2) as per link. I used 0.2mm tolerance, which works well with my MINI. 
+- Designed and tested new MINI(+) compatible leadscrew caps for TR8x4(p2x2) as per [Prusa MINI motor specifications](https://github.com/prusa3d/Original-Prusa-MINI/blob/master/DOCUMENTATION/ELECTRONICS/mini-motor-kit.pdf). Part tolerance is set to 0.2 mm, which should work well with any well working MINI(+). 
 
 If you need different tolerance just adjust the `OffsetFaces` feature in Fusion. 
 
