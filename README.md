@@ -7,8 +7,6 @@ Bear mod for Prusa MINI(+) based on original 10mm Z rods
 
 `Parts are currently being printed. An update will follow soon with the realized mod.`
 
-*Disclaimer: My Original Prusa Mini+ is in fact an amazing little printer and as far as I am concerned the print quality is incredible for the price and ease of use. I was tempted to proceed with this build for the main reason that I enjoy tinkering with 3D printers towards the possibility of improvement. In this case, towards a possibly more robust frame, which would (in theory at least) allow to maintain the same quality at higher accelerations with a direct-drive extruder to ease printing of flexible filaments. Keep in mind, as with any DYI assembly, there is always a chance of the final produced print quality to suffer, as it depends on the sourced hardware quality, part design and on the actual skills and experience put into building.*
-
 ## Features
 
 - Compatible with Prusa MINI and MINI+
@@ -22,6 +20,8 @@ Bear mod for Prusa MINI(+) based on original 10mm Z rods
 - Open-source
 
 ## Background
+
+*Disclaimer: The Original Prusa Mini+ is an amazing little printer and as far as I am concerned the print quality is incredible for the price and ease of use. I chose to proceed with this build because as many others, I enjoy tinkering with 3D printers towards the possibility of improvement. In this case, towards a possibly more robust frame, which would (in theory at least) allow to maintain the same quality at higher accelerations with a direct-drive extruder to ease printing of flexible filaments. Keep in mind, as with any DYI assembly, there is always a chance of the final produced print quality to suffer, as it depends on the sourced hardware quality, part design and on the actual skills and experience put into building.*
 
 There are quite a few models and tutorials online (mainly in [Printables](https://www.printables.com/search/all?q=prusa%20bear%20mini)) to build your Prusa Mini Bear mod, but as soon as you try to dive into versions and part compatibility, it becomes chaotic. Before printing, I wanted to ensure that all parts are well aligned and compatible with each other, but as far as I could find, there was no published CAD version with a complete model. Either I had to make a collection and hope for the best, or work on my own remix.
 
