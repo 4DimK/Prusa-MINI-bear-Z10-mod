@@ -1,5 +1,9 @@
 # Change Log
 
+## [v0.31] - 29/03/2023
+### Changed
+- Reduced and rounded Z rod length. Total axis travel possible is 206mm. Albeit, without changing the firmware max travel is set at 180mm from the bed surface.
+
 ## [v0.3] - 27/03/2023
 ### Changed
 Realized that MK3S and Prusa MINI use different leadscrew specifications, hence gregsaun's leadscrew caps are not compatible with this mod. 
