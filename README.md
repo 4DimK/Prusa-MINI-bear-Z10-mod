@@ -5,7 +5,7 @@ Bear mod adaptation for Prusa MINI(+) based on original 10mm Z rods
 
 `Parts are currently being printed. An update will follow soon with the realized mod.`
 
-![MB-iso](PICTURES/9.png)
+![MB-iso](PICTURES/10.png)
 
 ## Features
 
