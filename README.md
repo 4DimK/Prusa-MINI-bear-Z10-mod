@@ -19,6 +19,12 @@ Bear mod adaptation for Prusa MINI(+) based on original 10mm Z rods
 - Compatible with stock firmware (verification pending)
 - Open-source
 
+### Post MK4 release - Possible future features (with a grain of salt): 
+
+- From the mechanical side it appears that the MK4 X axis + Nextruder combo (assuming it will be sold separately) should be directly applicable in this mod, due to the 10mm Z rods.
+- Firmware wise, significant modifications may be needed for the automatic layer calibration and load-cell interfacing.
+- Input shaping: if the accelerometer can be connected to the MINI Buddy board.
+
 ## Background
 
 There are quite a few models and tutorials online (mainly in [Printables](https://www.printables.com/search/all?q=prusa%20bear%20mini)) to build your Prusa Mini Bear mod, but as soon as you try to dive into versions and part compatibility, it becomes chaotic. Before printing, I wanted to ensure that all parts are well aligned and compatible with each other, but as far as I could find, there was no published CAD version with a complete model. Either I had to make a collection and hope for the best, or work on my own remix.

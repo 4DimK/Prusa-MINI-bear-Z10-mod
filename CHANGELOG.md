@@ -1,5 +1,11 @@
 # Change Log
 
+## [v0.32] - 29/03/2023
+### Fixed
+- Y-motor-mount top surface was barely blocking the headbed rear bold head. Reduced thickness by 1mm to allow free move.
+- Z-motor-mount hole for the 10mm rod had no tolerance applied. It is now set at 0.2mm.
+- Z-top-bracket had a tolerance for 10mm rod set 0.085mm. That proved to small for my Mini. It is not also increased to 0.2mm.
+
 ## [v0.31] - 29/03/2023
 ### Changed
 - Reduced and rounded Z rod length. Total axis travel possible is 206mm. Albeit, without changing the firmware max travel is set at 180mm from the bed surface.
