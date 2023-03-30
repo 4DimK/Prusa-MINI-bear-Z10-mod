@@ -4,7 +4,7 @@
 ### Fixed
 - Y-motor-mount top surface was barely blocking the headbed rear bold head. Reduced thickness by 1mm to allow free move.
 - Z-motor-mount hole for the 10mm rod had no tolerance applied. It is now set at 0.2mm.
-- Z-top-bracket had a tolerance for 10mm rod set 0.085mm. That proved to small for my Mini. It is not also increased to 0.2mm.
+- Z-top-bracket had a tolerance for 10mm rod set 0.085mm. That proved to small for my Mini. It is now also increased to 0.2mm.
 
 ## [v0.31] - 29/03/2023
 ### Changed
