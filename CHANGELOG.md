@@ -1,6 +1,6 @@
 # Change Log
 
-## [v0.32] - 29/03/2023
+## [v0.32] - 30/03/2023
 ### Fixed
 - Y-motor-mount top surface was barely blocking the headbed rear bold head. Reduced thickness by 1mm to allow free move.
 - Z-motor-mount hole for the 10mm rod had no tolerance applied. It is now set at 0.2mm.
