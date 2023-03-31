@@ -1,5 +1,11 @@
 # Change Log
 
+## [v0.33] - 31/03/2023
+### Fixed
+- X-idler-right and X-idler-right bearing holes length is extended by 0.4mm as to make sure that the bearing sits below the top surface and not interfering with the POM nut. Also, a chamfer is added to it to ease the overhand printing.
+- Y-belt-holder for the mini needs to allow room for the PCB heater center bolt head. A 6x3mm cavity is added in the center hole.
+- CAD length of X-axis linear rods as taken from the original CAD I started with, is not in accordance with the stock rods. The length is fixed to 279mm. To make sure that both rods are symmetrically inserted between the idlers, 18mm bolts need to be fully inserted in the left idler.
+
 ## [v0.32] - 30/03/2023
 ### Fixed
 - Y-motor-mount top surface was barely blocking the headbed rear bold head. Reduced thickness by 1mm to allow free move.

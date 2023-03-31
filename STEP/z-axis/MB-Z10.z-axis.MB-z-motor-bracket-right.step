@@ -10,7 +10,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'MB-Z10.z-axis.MB-z-motor-bracket-right.step',
-/* time_stamp */ '2023-03-30T22:42:08+02:00',
+/* time_stamp */ '2023-03-31T22:39:57+02:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v19.2',
@@ -9564,14 +9564,14 @@ SOLID_ANGLE_UNIT()
 #9142=SHAPE_REPRESENTATION('',(#5226,#5637),#9130);
 #9143=SHAPE_REPRESENTATION('',(#5227),#9131);
 #9144=PRODUCT_DEFINITION_CONTEXT('part definition',#9152,'design');
-#9145=PRODUCT_DEFINITION('MB-z-motor-bracket','MB-z-motor-bracket v11',
+#9145=PRODUCT_DEFINITION('MB-z-motor-bracket','MB-z-motor-bracket v14',
 #9147,#9144);
 #9146=PRODUCT_DEFINITION('Mini Bear 2 With OEM Z-Axis v22',
 'Mini Bear 2 With OEM Z-Axis v22',#9148,#9144);
 #9147=PRODUCT_DEFINITION_FORMATION('',$,#9154);
 #9148=PRODUCT_DEFINITION_FORMATION('',$,#9155);
-#9149=PRODUCT_RELATED_PRODUCT_CATEGORY('MB-z-motor-bracket v11',
-'MB-z-motor-bracket v11',(#9154));
+#9149=PRODUCT_RELATED_PRODUCT_CATEGORY('MB-z-motor-bracket v14',
+'MB-z-motor-bracket v14',(#9154));
 #9150=PRODUCT_RELATED_PRODUCT_CATEGORY(
 'Mini Bear 2 With OEM Z-Axis v22','Mini Bear 2 With OEM Z-Axis v22',(#9155));
 #9151=APPLICATION_PROTOCOL_DEFINITION('international standard',
@@ -9579,7 +9579,7 @@ SOLID_ANGLE_UNIT()
 #9152=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #9153=PRODUCT_CONTEXT('part definition',#9152,'mechanical');
-#9154=PRODUCT('MB-z-motor-bracket','MB-z-motor-bracket v11',$,(#9153));
+#9154=PRODUCT('MB-z-motor-bracket','MB-z-motor-bracket v14',$,(#9153));
 #9155=PRODUCT('Mini Bear 2 With OEM Z-Axis v22',
 'Mini Bear 2 With OEM Z-Axis v22',$,(#9153));
 #9156=PRESENTATION_STYLE_ASSIGNMENT((#9158));

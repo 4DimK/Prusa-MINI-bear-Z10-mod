@@ -13,6 +13,7 @@
 1. [BOM](#BOM)
 1. [Manual](#Manual)
 1. [Firmware](#Firmware)
+1. [Print profiles](#Print-profiles)
 1. [License](#License)
 1. [Credits and Inspiration](#Credits-and-Inspiration)
 
@@ -34,7 +35,7 @@ Bear mod adaptation for Prusa MINI(+) based on 10mm Z rods.
 - Compatible with stock firmware (verification pending)
 - Open-source
 
-[^1]: Z rods are the only non-printed hardware part that will need to be modified and cut to length (311).
+[^1]: Z rods are the only non-printed hardware part that will need to be modified and cut to length (311mm).
 
 ## Background
 
@@ -78,19 +79,23 @@ The Original Prusa Mini+ is an amazing little printer and as far as I am concern
 
 ## Print settings
 
-`To Follow`
+`To do`
 
 ## BOM
 
-`To Follow`
+`To do`
 
 ## Manual
 
-`To Follow (maybe)`
+`To do (maybe)`
 
 ## Firmware
 
 The goal of this mod is to make it compatible with the Original Prusa MINI(+) firmware, as to avoid the effort of maintaining a custom version.
+
+## Print profiles
+
+`To do`
 
 ## License
 
