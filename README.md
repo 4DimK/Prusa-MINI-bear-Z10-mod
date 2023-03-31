@@ -1,13 +1,27 @@
 # Prusa-MINI-bear-mod-Z10
-Bear mod adaptation for Prusa MINI(+) based on original 10mm Z rods
 
 ## ---------------Work in Progress---------------
 
 `Parts are currently being printed. An update will follow soon with the realized mod.`
 
-![MB-iso](PICTURES/11.png)
+# Table of Contents
+1. [Introduction](#Introduction)
+1. [Features](#Features)
+1. [Background](#Background)
+1. [Disclaimer](#Disclaimer)
+1. [Post MK4 release thoughts](#Post-MK4-release-thoughts)
+1. [BOM](#BOM)
+1. [Manual](#Manual)
+1. [License](#License)
+1. [Credits and Inspiration](#Credits-and-Inspiration)
+
+## Introduction
+
+Bear mod adaptation for Prusa MINI(+) based on original 10mm Z rods
 
 ## Features
+
+![MB-iso](PICTURES/11.png)
 
 - Compatible with Prusa MINI and MINI+
 - Supported (dual) Z-axis based on the stock 10mm rods
@@ -20,12 +34,6 @@ Bear mod adaptation for Prusa MINI(+) based on original 10mm Z rods
 - Open-source
 
 [^1]: Z rods are the only non-printed hardware part that will need to be modified and cut to length (311).
-
-### Post MK4 release thoughts: 
-
-- From the mechanical side it appears that the MK4 X axis + Nextruder combo (assuming it will be sold separately) should be directly applicable in this mod, due to the 10mm Z rods.
-- Firmware wise, significant modifications may be needed for the automatic layer calibration and load-cell interfacing.
-- Input shaping: At the time of writing, I am not aware of how to connect an accelerometer to the MINI Buddy board.
 
 ## Background
 
@@ -61,6 +69,12 @@ Ready-to-print STL files will follow as soon as I print the parts and complete t
 
 The Original Prusa Mini+ is an amazing little printer and as far as I am concerned the print quality is incredible for the price and ease of use. I chose to proceed with this build because as many others, I enjoy tinkering with 3D printers towards the possibility of improvement. In this case, towards a possibly more robust frame, which would (in theory at least) allow to maintain the same quality at higher accelerations with a direct-drive extruder to ease printing of flexible filaments. Keep in mind, as with any DYI assembly, there is always a chance of the final produced print quality to suffer, as it depends on the sourced hardware quality, part design and on the actual skills and experience put into building.
 
+## Post MK4 release thoughts
+
+- From the mechanical side it appears that the MK4 X axis + Nextruder combo (assuming it will be sold separately) should be directly applicable in this mod, due to the 10mm Z rods.
+- Firmware wise, significant modifications may be needed for the automatic layer calibration and load-cell interfacing.
+- Input shaping: At the time of writing, I am not aware of how to connect an accelerometer to the MINI Buddy board.
+
 ## Print settings
 
 `To Follow`
@@ -81,7 +95,7 @@ All parts are licensed under the GNU GENERAL PUBLIC LICENSE, Version 3. For more
 
 ## Credits and Inspiration
 - [Prusa Research](https://www.prusa3d.com/) for all their contributions to the 3D printing community and open-source 3D printers.
-- [Grégoire Saunier](https://github.com/gregsaun) for his work on the [Prusa MK3S upgrade](https://github.com/gregsaun/prusa_i3_bear_upgrade), including the [Bear X axis](https://github.com/gregsaun/bear_extruder_and_x_axis). Additionally, credits are given to the original developers of the projects and products as cited by Grégoire Saunier.
+- [Grégoire Saunier](https://github.com/gregsaun) for his work on the [Prusa MK3S upgrade](https://github.com/gregsaun/prusa_i3_bear_upgrade), including the [Bear X axis](https://github.com/gregsaun/bear_extruder_and_x_axis). Additionally, credits are given to the original developers of the projects and products as cited by Grégoire Saunier. This readme file structure is also inspired by the same repo.
 - [3DPGVA](https://github.com/3DPGVA) for his [Bear adaptation](https://www.printables.com/model/37939-prusa-mini-mk3s-bear-ultra-upgraded) for Prusa MINI and [Buddy board case](https://www.printables.com/model/36612-prusamini-buddy-board-case-for-mk3s-like).
 - [Tomson](https://www.printables.com/social/88572-tomson/models?o=download_count) for providing the 10mm Z idler [source files](https://www.printables.com/model/64032-mini-bear-remixsmokistylewith-alternative-z-rod/files) I started with.
 
