@@ -2,9 +2,9 @@
 
 ## ---------------Work in Progress---------------
 
-`Parts are currently being printed. An update will follow soon with the realized mod.`
+`This mod is currently under construction. An update will follow soon with the realized modified printer.`
 
-# Table of Contents
+## Table of Contents
 1. [Introduction](#Introduction)
 1. [Features](#Features)
 1. [Background](#Background)
@@ -12,12 +12,13 @@
 1. [Post MK4 release thoughts](#Post-MK4-release-thoughts)
 1. [BOM](#BOM)
 1. [Manual](#Manual)
+1. [Firmware](#Firmware)
 1. [License](#License)
 1. [Credits and Inspiration](#Credits-and-Inspiration)
 
 ## Introduction
 
-Bear mod adaptation for Prusa MINI(+) based on original 10mm Z rods
+Bear mod adaptation for Prusa MINI(+) based on 10mm Z rods.
 
 ## Features
 
@@ -87,6 +88,9 @@ The Original Prusa Mini+ is an amazing little printer and as far as I am concern
 
 `To Follow (maybe)`
 
+## Firmware
+
+The goal of this mod is to make it compatible with the Original Prusa MINI(+) firmware, as to avoid the effort of maintaining a custom version.
 
 ## License
 
