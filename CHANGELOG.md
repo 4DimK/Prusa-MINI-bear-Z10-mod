@@ -35,7 +35,7 @@ The T-nuts I had in stock appeared to have a difficulty tightening and fixing th
 ## [v0.22] - 21/03/2023
 ### Fixed
 My Mini+ Z threaded rod length was measured to be 309mm, which is different from the ones present in the CAD I started with (it safe to say now that the entire CAD has been modified). This affects the Z 2040 profile as well as the 10mm linear rod length. 
-- Z profiles are now adjusted to a more reasonable length of 349mm and the linear rod properly adjusted as well.
+- Z profiles are now adjusted to a more reasonable length of 349mm and the linear rod properly adjusted as well to 311mm.
 
 ## [v0.21] - 18/03/2023
 ### Added
