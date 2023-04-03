@@ -1,5 +1,17 @@
 # Change Log
 
+## [v0.8] - 31/03/2023
+### Added
+- Pictures of the realized mod
+
+### Changed
+- Updated STL files for the following parts:
+    - X-idler-left
+    - X-idler-right
+
+### Fixed
+- X-idler-right and X-idler-right linear rod cavities for x-axis linear rods is shortened to meet the length of the stock rods for easy assembly.
+
 ## [v0.33] - 31/03/2023
 ### Fixed
 - X-idler-right and X-idler-right bearing holes length is extended by 0.4mm as to make sure that the bearing sits below the top surface and not interfering with the POM nut. Also, a chamfer is added to it to ease the overhand printing.

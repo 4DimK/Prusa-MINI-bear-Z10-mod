@@ -23,7 +23,7 @@ Bear mod adaptation for Prusa MINI(+) based on 10mm Z rods.
 
 ## Features
 
-![MB-iso](PICTURES/11.png)
+![MB-iso](PICTURES/1.jpg)
 
 - Compatible with Prusa MINI and MINI+
 - Supported (dual) Z-axis based on the stock 10mm rods
