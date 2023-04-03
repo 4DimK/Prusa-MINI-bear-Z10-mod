@@ -2,10 +2,10 @@
 
 ## ---------------Work in Progress---------------
 
-`This mod is currently under construction. An update will follow soon with the realized modified printer.`
+`Currently working on slicer profile and -if not possible- limited firmware changes`
 
 ## Table of Contents
-1. [Introduction](#Introduction)
+1. [Introduction](#Introduction) 
 1. [Features](#Features)
 1. [Background](#Background)
 1. [Disclaimer](#Disclaimer)
@@ -23,16 +23,16 @@ Bear mod adaptation for Prusa MINI(+) based on 10mm Z rods.
 
 ## Features
 
-![MB-iso](PICTURES/1.jpg)
+![MB-iso](PICTURES/cover.png)
 
 - Compatible with Prusa MINI and MINI+
 - Supported (dual) Z-axis based on the stock 10mm rods
 - MK3S printhead
 - Reuse of as many non-printed parts as possible[^1]
 - Increased frame robustsness
-- Reduced noise levels (to be tested)
 - Maintenance friendly
-- Compatible with stock firmware (verification pending)
+- Reduced noise levels (to be tested)
+- Compatible with stock firmware (with few limitation, see [Firmware](#Firmware) section)
 - Open-source
 
 [^1]: Z rods are the only non-printed hardware part that will need to be modified and cut to length (311mm).
@@ -92,6 +92,8 @@ The Original Prusa Mini+ is an amazing little printer and as far as I am concern
 ## Firmware
 
 The goal of this mod is to make it compatible with the Original Prusa MINI(+) firmware, as to avoid the effort of maintaining a custom version.
+
+Although the printer works directly after the mod, few *quality of file* features implemented at firmware level, are not compatible. Mainly, the most important incompatible featuresa re the `load/unload` scripts. Currently I am looking for possible workarounds that can be automated.
 
 ## Print profiles
 
