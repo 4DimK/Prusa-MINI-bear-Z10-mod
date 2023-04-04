@@ -1,6 +1,6 @@
 # Change Log
 
-## [v0.8] - 31/03/2023
+## [v0.8] - 02/03/2023
 ### Added
 - Pictures of the realized mod
 
