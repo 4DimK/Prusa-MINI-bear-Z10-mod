@@ -31,7 +31,7 @@ Bear mod adaptation for Prusa MINI(+) based on 10mm Z rods.
 - Reuse of as many non-printed parts as possible[^1]
 - Increased frame robustsness
 - Maintenance friendly
-- Reduced noise levels (to be tested)
+- Reduced noise levels
 - Compatible with stock firmware (with few limitation, see [Firmware](#Firmware) section)
 - Open-source
 
@@ -93,11 +93,14 @@ The Original Prusa Mini+ is an amazing little printer and as far as I am concern
 
 The goal of this mod is to make it compatible with the Original Prusa MINI(+) firmware, as to avoid the effort of maintaining a custom version.
 
-Although the printer works directly after the mod, few *quality of file* features implemented at firmware level, are not compatible. Mainly, the most important incompatible featuresa re the `load/unload` scripts. Currently I am looking for possible workarounds that can be automated.
+Although the printer works directly after the mod, few features implemented at firmware level, are not compatible. Mainly, the `load/unload` scripts from the Filament section of the MINI screen.
+
+Instead of using those, custom macros shall be used to perform load and unload filament actions. See [Print profiles](#Print-profiles) section.
+
 
 ## Print profiles
 
-`To do`
+`Under construction`
 
 ## License
 

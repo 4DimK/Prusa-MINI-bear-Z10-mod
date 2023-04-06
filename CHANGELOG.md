@@ -1,5 +1,11 @@
 # Change Log
 
+## [v0.81] - 06/03/2023
+### Added
+- X-axis-endstop-spacer. The x axis idlers are to be updated as to avoid sensorless homing by side kicking the leadscrew. For versions prior to v0.81 it is recommended to use the spacer on the top X axis rod attached next to right idler as to avoid damaging the Z leadscrew.
+- MB-spool-holder. This is a draft version and is not printed yet. Not even sure if I will be using a top place spool holder. Either way, this remixed out of PR supplied MK3S STL of their spool holder and modded to be attached on 2020 extrusion. There is also an insert with space for M4 bolt. That is meant to incorporate a filament guide.
+- Added PRINT_PROFILES folder. Currently it includes a draft config bundle with only one Bear compatible profile (settings, filament and printer) derived from 0.2mm QUALITY @MINI for 0.4mm nozzle. All settings related to the extruder are copied from the equivalent MK3S profile. STL and SVG of ht the MINI heatbed are included if adding the visuals is of interest. These are directly downloaded from PrusaSlicer github [repo](https://github.com/prusa3d/PrusaSlicer/tree/master/resources/profiles/PrusaResearch).
+
 ## [v0.8] - 02/03/2023
 ### Added
 - Pictures of the realized mod
