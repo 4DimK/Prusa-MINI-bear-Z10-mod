@@ -2,7 +2,7 @@
 
 ## ---------------Work in Progress---------------
 
-`Currently working on slicer profile and -if not possible- limited firmware changes`
+`Currently working on slicer profiles`
 
 ## Table of Contents
 1. [Introduction](#Introduction) 
