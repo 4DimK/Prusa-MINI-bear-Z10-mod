@@ -1,5 +1,30 @@
 # Change Log
 
+## [v0.9] - 08/03/2023
+### Added
+- Filament sensor functionality. The following parts are modified.
+    - MB-extruder-motor-plate: Extra travel space is accommodated for the FS-lever inverted function.
+    - MB-FS-lever: The lever is modified to provide the inverted (not mirrored) function of MK3S which complies with the MINI firmware sensor interpretation.
+    - **Important** MK3S-extruder-body: The filament sensor cable provided for the MINI has inverted plug polarity when oriented to be used with the MK3S. The plug red and black wires need to be swapped. The part is edited to move mirror the plug alignment groove.
+- MB-spool-holder is now extended with a filament guide, inspired from the images of the new MK4 holder. 
+
+
+### Fixed
+- X axis max travel was 3mm short (177mm). This is fixed by updating the 2040 top and front-rear profiles, to 220mm and 300mm respectively. This affects the following parts:
+    - X-idler-right and left: X-axis rod cavities are shortened by 2mm each.
+    - MB-helper-Y: Length increased by 2mm.
+    - X axis belt lenght: 4mm of extra length is required.
+- Z-top-bracket: The tolerance is increased from 0.2mm to 0.25mm to allow easier rod insertion. Also, following from the aforementioned combination of the bracket with the end-cap, the extra thickness allows some room for Z rod length mismatches (in case the rods are cut manually).
+- X-axis-endstop-spacer is not extended to sit on top of the right idler. This effectively constrains the spacer from rotating. The spacer also does not limit the tramming function.
+    - The spacer provides 3.5mm of clearance. Just enough to not tram to the leadscrew. This can easily be incorporated within the idler itself. The reason to not do that is that in case another extruder design is used, the required clearance might be different, or not at all.
+
+### Changed
+- Top Z endcaps and Z-top-brackets are now a combined part. This results in a more robust bracket that can also be used to tram align the X axis.
+- In MK3S-extruder-body, the probe has been brought 3mm close to the extruder. 
+- MB-display-holder: added extra thickness around the M3 bolt as to allow insertion of a M3 locknut.
+- MB-electronics case: This is now a complete remix of the original design from 3DPGVA. The reason is that there was not enough space to incorporate the extra length of the wires I had and the lead was not closing properly. I took the change to add extra cable covers, inspired both from MK3S as well as the MK4 electronics boxes.
+
+
 ## [v0.81] - 06/03/2023
 ### Added
 - X-axis-endstop-spacer. The x axis idlers are to be updated as to avoid sensorless homing by side kicking the leadscrew. For versions prior to v0.81 it is recommended to use the spacer on the top X axis rod attached next to right idler as to avoid damaging the Z leadscrew.
@@ -20,7 +45,7 @@
 
 ## [v0.33] - 31/03/2023
 ### Fixed
-- X-idler-right and X-idler-right bearing holes length is extended by 0.4mm as to make sure that the bearing sits below the top surface and not interfering with the POM nut. Also, a chamfer is added to it to ease the overhand printing.
+- X-idler-right and X-idler-left bearing holes length is extended by 0.4mm as to make sure that the bearing sits below the top surface and not interfering with the POM nut. Also, a chamfer is added to it to ease the overhand printing.
 - Y-belt-holder for the mini needs to allow room for the PCB heater center bolt head. A 6x3mm cavity is added in the center hole.
 - CAD length of X-axis linear rods as taken from the original CAD I started with, is not in accordance with the stock rods. The length is fixed to 279mm. To make sure that both rods are symmetrically inserted between the idlers, 18mm bolts need to be fully inserted in the left idler.
 

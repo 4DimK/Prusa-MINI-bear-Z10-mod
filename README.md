@@ -97,10 +97,23 @@ Although the printer works directly after the mod, few features implemented at f
 
 Instead of using those, custom macros shall be used to perform load and unload filament actions. See [Print profiles](#Print-profiles) section.
 
+The shortcoming is that these macros cannot be used while a job is running. If the filament runs out during a print, the factory default load/unload macros will be executed. That is fine for the unload function, but for the load phase I suggest to proceed as instructed in the screen **but** without actually inserting the filament to the extruder (only enough to register the filament with the sensor). Then only push the filament during the purging phase.
+
+**Factory provided modifiable settings**
+
+To properly use the MK3S the following two settings need to be changed directly from the MINI screen. The menu to change these is kind of hidden; to access select `Settings->HW Setup (Long press until sound)`:
+- Z-axis length: 210
+- Extruder steps per unit: 140
+- Extruder dir: Wrong
+
+Save and return.
+
 
 ## Print profiles
 
 `Under construction`
+
+Current draft versions under the PRINT_PROFILES folder.
 
 ## License
 
