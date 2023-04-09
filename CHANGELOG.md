@@ -1,5 +1,14 @@
 # Change Log
 
+## [v1.0] - 08/03/2023
+### Changed
+- MK3S-extruder-body: Added bolt head cavity in the probe holder. 
+- Spool-holder: Increased side diameter to easier insert M4 bolt.
+
+### Fixed
+- MB-FS-lever: adjusted gap for more reliable operation
+- Increased overall robostuness of remixed electronics case
+
 ## [v0.9] - 08/03/2023
 ### Added
 - Filament sensor functionality. The following parts are modified.
