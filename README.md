@@ -1,9 +1,5 @@
 # Prusa-MINI-bear-mod-Z10
 
-## ---------------Work in Progress---------------
-
-`Currently working on slicer profiles`
-
 ## Table of Contents
 1. [Introduction](#Introduction) 
 1. [Features](#Features)
@@ -23,11 +19,11 @@ Bear mod adaptation for Prusa MINI(+) based on 10mm Z rods.
 
 ## Features
 
-![MB-iso](PICTURES/cad/12.png)
+![MB-iso](PICTURES/ISO.jpg)
 
 - Compatible with Prusa MINI and MINI+
 - Supported (dual) Z-axis based on the stock 10mm rods
-- MK3S printhead
+- MK3S printhead w/ Filament Sensor
 - Reuse of as many non-printed parts as possible[^1]
 - Increased frame robustsness
 - Maintenance friendly
@@ -79,7 +75,11 @@ The Original Prusa Mini+ is an amazing little printer and as far as I am concern
 
 ## Print settings
 
-`To do`
+All parts are printed in PETG at 0.2mm layer height with the QUALITY profile @ MINI. The only applied changes to the default prifile (see [Print profiles](#Print-profiles)) are:
+- Perimeters = 3
+- Infill density = 25%
+
+The only exception from PETG is the printhead fan-shroud which is printed in ABS, using the same print settings.
 
 ## BOM
 
@@ -87,7 +87,11 @@ The Original Prusa Mini+ is an amazing little printer and as far as I am concern
 
 ## Manual
 
-`To do (maybe)`
+I following guides should provide most necessary guide steps. If there is further interest I will make another document for some small details.
+
+- Frame, Y and Z axis: [Bear Lab Guides](https://guides.bear-lab.com/c/BearFrame_Assembly_Guide)
+- E axis: [Prusa MK3S assembly guide](https://help.prusa3d.com/guide/5-e-axis-assembly_28536)
+- Electronics: [Prusa MINI electronics assembly](https://help.prusa3d.com/guide/5-lcd-assembly-electronics_202703) - Step 19 for the overview of BUDDY board connections.
 
 ## Firmware
 
