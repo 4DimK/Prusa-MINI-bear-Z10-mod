@@ -52,20 +52,13 @@ For the extruder, I started from the stock part as released by Prusa Research: h
 
 Parts that are not modified:
 
-- Buddy board case (3DPGVA): [Link](https://github.com/prusa3d/Original-Prusa-MINI/blob/master/DOCUMENTATION/ELECTRONICS/mini-motor-kit.pdf)
-- Y-rod-holders, Y-idler-tension, 2040 end caps (gregsaun) and cable clips: [Link](https://github.com/gregsaun/prusa_i3_bear_upgrade)
+- Y-rod-holders, Y-idler-tensioner, 2040-end-caps (gregsaun) and cable clips: [Link](https://github.com/gregsaun/prusa_i3_bear_upgrade)
 
 ---
 
-Pictures color coding (printed parts): 
-
-Blue/orange: Non-stock (Bear and Mini-Bear) parts. 
-Black: Can be used from the stock Prusa Mini.
-Ready-to-print STL files will follow as soon as I print the parts and complete the transition. Moreover, if there is enough interest I will accommodate a guide for this version.
-
 ### Disclaimer
 
-The Original Prusa Mini+ is an amazing little printer and as far as I am concerned the print quality is incredible for the price and ease of use. I chose to proceed with this build because as many others, I enjoy tinkering with 3D printers towards the possibility of improvement. In this case, towards a possibly more robust frame, which would (in theory at least) allow to maintain the same quality at higher accelerations with a direct-drive extruder to ease printing of flexible filaments. Keep in mind, as with any DYI assembly, there is always a chance of the final produced print quality to suffer, as it depends on the sourced hardware quality, part design and on the actual skills and experience put into building.
+The Original Prusa MINI(+) is an amazing little printer and as far as I am concerned the print quality is incredible for the price and ease of use. I chose to proceed with this build because as many others, I enjoy tinkering with 3D printers towards the possibility of improvement. In this case, towards a possibly more robust frame, which would (in theory at least) allow to maintain the same quality at higher accelerations with a direct-drive extruder to ease printing of flexible filaments. Keep in mind, as with any DYI assembly, there is always a chance of the final produced print quality to suffer, as it depends on the sourced hardware quality, part design and on the actual skills and experience put into building.
 
 ## Post MK4 release thoughts
 
@@ -76,8 +69,11 @@ The Original Prusa Mini+ is an amazing little printer and as far as I am concern
 ## Print settings
 
 All parts are printed in PETG at 0.2mm layer height with the QUALITY profile @ MINI. The only applied changes to the default prifile (see [Print profiles](#Print-profiles)) are:
-- Perimeters = 3
-- Infill density = 25%
+
+| setting | Value |
+|-------- | ----- |
+| Perimeters | 3 |
+| Infill density | 25% |
 
 The only exception from PETG is the printhead fan-shroud which is printed in ABS, using the same print settings.
 
@@ -87,7 +83,7 @@ The only exception from PETG is the printhead fan-shroud which is printed in ABS
 
 ## Manual
 
-I following guides should provide most necessary guide steps. If there is further interest I will make another document for some small details.
+The following guides should provide most of the necessary steps. If there is further interest I will make another document for some small details.
 
 - Frame, Y and Z axis: [Bear Lab Guides](https://guides.bear-lab.com/c/BearFrame_Assembly_Guide)
 - E axis: [Prusa MK3S assembly guide](https://help.prusa3d.com/guide/5-e-axis-assembly_28536)
@@ -106,9 +102,12 @@ The shortcoming is that these macros cannot be used while a job is running. If t
 **Factory provided modifiable settings**
 
 To properly use the MK3S the following two settings need to be changed directly from the MINI screen. The menu to change these is kind of hidden; to access select `Settings->HW Setup (Long press until sound)`:
-- Z-axis length: 210
-- Extruder steps per unit: 140
-- Extruder dir: Wrong
+
+| setting | Value |
+|-------- | ----- |
+| Z-axis length | 210 |
+| Extruder steps per uni | 140 |
+| Extruder dir | Wrong |
 
 Save and return.
 
@@ -118,6 +117,15 @@ Save and return.
 `Under construction`
 
 Current draft versions under the PRINT_PROFILES folder.
+
+Important: Make sure the any setting related to extrusion does not derive any settings from the default MINI profiles. Even better, the MK3S settings are a good starting point.
+
+In PrusaSlicer:
+- `Printer Settings->Notes`: Make sure -PRINTER_MODEL_MINI- is changed to another value.
+- `Filament Settings->Custom gcode`: Now that the printer name is changed no bowden related settings are applied. Since we use the MK3S extruder for this version. It is a good idea to copy-paste the settings from the equivalent MK3S filament profile.
+- `Filament Settings->Dependencies`: Same as above. 
+
+All of these are implemented in the exported config bundles within this repo.
 
 ## License
 
