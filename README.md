@@ -68,14 +68,14 @@ The Original Prusa MINI(+) is an amazing little printer and as far as I am conce
 
 ## Print settings
 
-All parts are printed in PETG at 0.2mm layer height with the QUALITY profile @ MINI. The only applied changes to the default prifile (see [Print profiles](#Print-profiles)) are:
+Assuming a Prusa MINI(+) is used, all parts are printed in PETG with the `0.2mm QUALITY@MINI `profile. The only applied changes are:
 
 | setting | Value |
 |-------- | ----- |
 | Perimeters | 3 |
 | Infill density | 25% |
 
-The only exception from PETG is the printhead fan-shroud which is printed in ABS, using the same print settings.
+One exception from PETG is the print-head fan-shroud which is printed in ABS, using the same print settings.
 
 ## BOM
 
@@ -83,7 +83,7 @@ The only exception from PETG is the printhead fan-shroud which is printed in ABS
 
 ## Manual
 
-The following guides should provide most of the necessary steps. If there is further interest I will make another document for some small details.
+The following guides should provide most of the necessary steps. If there is further interest I will make another document for more specific details.
 
 - Frame, Y and Z axis: [Bear Lab Guides](https://guides.bear-lab.com/c/BearFrame_Assembly_Guide)
 - E axis: [Prusa MK3S assembly guide](https://help.prusa3d.com/guide/5-e-axis-assembly_28536)
