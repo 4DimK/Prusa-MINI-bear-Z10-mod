@@ -88,6 +88,8 @@ The following guides should provide most of the necessary steps. If there is fur
 - Frame, Y and Z axis: [Bear Lab Guides](https://guides.bear-lab.com/c/BearFrame_Assembly_Guide)
 - E axis: [Prusa MK3S assembly guide](https://help.prusa3d.com/guide/5-e-axis-assembly_28536)
 - Electronics: [Prusa MINI electronics assembly](https://help.prusa3d.com/guide/5-lcd-assembly-electronics_202703) - Step 19 for the overview of BUDDY board connections.
+- Z stepper motor in-series connection: [Split-Z-axis-for-MINI by 3DPGVA](https://github.com/3DPGVA/Split-Z-Axis-for-MINI/blob/master/2020-08-14_20h49_21.jpg)
+    - The color coding matches the original Prusa MINI extruder motor. Follow it closely.
 
 ## Firmware
 
@@ -106,7 +108,7 @@ To properly use the MK3S the following two settings need to be changed directly 
 | setting | Value |
 |-------- | ----- |
 | Z-axis length | 210 |
-| Extruder steps per uni | 140 |
+| Extruder steps per unit | 140 |
 | Extruder dir | Wrong |
 
 Save and return.
@@ -118,11 +120,11 @@ Save and return.
 
 Current draft versions under the PRINT_PROFILES folder.
 
-Important: Make sure the any setting related to extrusion does not derive any settings from the default MINI profiles. Even better, the MK3S settings are a good starting point.
+Important: Make sure the any setting related to extrusion does not derive any values from the default MINI profiles. Even better, the MK3S settings are a good starting point.
 
 In PrusaSlicer:
 - `Printer Settings->Notes`: Make sure -PRINTER_MODEL_MINI- is changed to another value.
-- `Filament Settings->Custom gcode`: Now that the printer name is changed no bowden related settings are applied. Since we use the MK3S extruder for this version. It is a good idea to copy-paste the settings from the equivalent MK3S filament profile.
+- `Filament Settings->Custom gcode`: Now that the printer name is changed, no bowden tuned values are applied. Since we use the MK3S extruder for this version. It is a good idea to copy-paste the settings from the equivalent MK3S filament profile.
 - `Filament Settings->Dependencies`: Same as above. 
 
 All of these are implemented in the exported config bundles within this repo.
