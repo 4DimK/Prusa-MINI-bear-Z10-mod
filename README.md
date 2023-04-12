@@ -87,9 +87,9 @@ The following guides should provide most of the necessary steps. If there is fur
 
 - Frame, Y and Z axis: [Bear Lab Guides](https://guides.bear-lab.com/c/BearFrame_Assembly_Guide)
 - E axis: [Prusa MK3S assembly guide](https://help.prusa3d.com/guide/5-e-axis-assembly_28536)
-- Electronics: [Prusa MINI electronics assembly](https://help.prusa3d.com/guide/5-lcd-assembly-electronics_202703) - Step 19 for the overview of BUDDY board connections.
 - Z stepper motor in-series connection: [Split-Z-axis-for-MINI by 3DPGVA](https://github.com/3DPGVA/Split-Z-Axis-for-MINI/blob/master/2020-08-14_20h49_21.jpg)
     - The color coding matches the original Prusa MINI extruder motor. Follow it closely.
+- Electronics: [Prusa MINI electronics assembly](https://help.prusa3d.com/guide/5-lcd-assembly-electronics_202703) - Step 19 for the overview of BUDDY board connections.
 
 ## Firmware
 
