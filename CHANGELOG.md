@@ -2,6 +2,13 @@
 
 ## [v1.0] - 08/03/2023
 ### Changed
+- Recolor CAD files as to better distinguish between frame (black) and printed (orange) parts.
+
+### Added
+- Meanwell RSP320-24 PSU holder. That should not be necessary for anyone already having a working MINI. Unfortunately I accidentally fried my PSU and I had to replace it with what I had laying around.
+
+## [v1.0] - 08/03/2023
+### Changed
 - MK3S-extruder-body: Added bolt head cavity in the probe holder. 
 - Spool-holder: Increased side diameter to easier insert M4 bolt.
 

@@ -103,7 +103,11 @@ The shortcoming is that these macros cannot be used while a job is running. If t
 
 **Factory provided modifiable settings**
 
-To properly use the MK3S the following two settings need to be changed directly from the MINI screen. The menu to change these is kind of hidden; to access select `Settings->HW Setup (Long press until sound)`:
+To properly use the MK3S printhead the following settings need to be changed directly from the MINI screen. 
+
+Hint: The menu to change these is kind of hidden; to access select:
+
+`Settings->HW Setup (Long press until sound)`:
 
 | setting | Value |
 |-------- | ----- |
