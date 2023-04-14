@@ -5,7 +5,7 @@
 - Recolor CAD files as to better distinguish between frame (black) and printed (orange) parts.
 
 ### Added
-- Meanwell RSP320-24 PSU holder. That should not be necessary for anyone already having a working MINI. Unfortunately I accidentally fried my PSU and I had to replace it with what I had laying around.
+- Meanwell RSP320-24 PSU holder. That should not be necessary for anyone already having a working MINI. Unfortunately I accidentally fried my PSU and I had to replace it with what I had laying around. [updated on 15/04/2023]
 
 ## [v1.0] - 08/03/2023
 ### Changed
