@@ -5,7 +5,6 @@
 - CAD leadscrew is changed to a proper TR8x4(P2x2) as per [prusa3d](https://github.com/prusa3d/Original-Prusa-MINI/blob/master/DOCUMENTATION/ELECTRONICS/mini-motor-kit.pdf). The z-leadscrew-cap is designed based on that as to properly fit.
 - Remixed the [*official* Prusa double spool holder](https://www.printables.com/model/418764-unofficial-official-prusa-i3-mk3s-spool-holder-not) as to snap into a 2020 extrusion and redesigned the handles from scartch as to make them 3D printable. Under testing.
     - This allows the use of the [new filament guide](https://www.printables.com/model/451501-mk4-printable-parts/files) as released with the MK4 by Prusa Research.
-
 ### Fixed
 - Meanwell RSP320-24 PSU holder: fixed wrong PSU mounting whole diameter (was M3 instead of M4), increased thickness of cover plate. Redesigned the top bracket because it was using the wrong PSU mounting hole.
 - Fixed changelog update dates.

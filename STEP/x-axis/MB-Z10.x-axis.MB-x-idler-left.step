@@ -10,7 +10,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'MB-Z10.x-axis.MB-x-idler-left.step',
-/* time_stamp */ '2023-04-08T18:30:02+02:00',
+/* time_stamp */ '2023-04-17T22:48:06+02:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v19.2',
@@ -11707,14 +11707,14 @@ SOLID_ANGLE_UNIT()
 #10778=SHAPE_REPRESENTATION('',(#6457,#6956),#10766);
 #10779=SHAPE_REPRESENTATION('',(#6458),#10767);
 #10780=PRODUCT_DEFINITION_CONTEXT('part definition',#10788,'design');
-#10781=PRODUCT_DEFINITION('MB-x-idler-left','MB-x-idler-left v19',#10783,
+#10781=PRODUCT_DEFINITION('MB-x-idler-left','MB-x-idler-left v21',#10783,
 #10780);
 #10782=PRODUCT_DEFINITION('Mini Bear 2 With OEM Z-Axis v22',
 'Mini Bear 2 With OEM Z-Axis v22',#10784,#10780);
 #10783=PRODUCT_DEFINITION_FORMATION('',$,#10790);
 #10784=PRODUCT_DEFINITION_FORMATION('',$,#10791);
-#10785=PRODUCT_RELATED_PRODUCT_CATEGORY('MB-x-idler-left v19',
-'MB-x-idler-left v19',(#10790));
+#10785=PRODUCT_RELATED_PRODUCT_CATEGORY('MB-x-idler-left v21',
+'MB-x-idler-left v21',(#10790));
 #10786=PRODUCT_RELATED_PRODUCT_CATEGORY(
 'Mini Bear 2 With OEM Z-Axis v22','Mini Bear 2 With OEM Z-Axis v22',(#10791));
 #10787=APPLICATION_PROTOCOL_DEFINITION('international standard',
@@ -11722,7 +11722,7 @@ SOLID_ANGLE_UNIT()
 #10788=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #10789=PRODUCT_CONTEXT('part definition',#10788,'mechanical');
-#10790=PRODUCT('MB-x-idler-left','MB-x-idler-left v19',$,(#10789));
+#10790=PRODUCT('MB-x-idler-left','MB-x-idler-left v21',$,(#10789));
 #10791=PRODUCT('Mini Bear 2 With OEM Z-Axis v22',
 'Mini Bear 2 With OEM Z-Axis v22',$,(#10789));
 #10792=PRESENTATION_STYLE_ASSIGNMENT((#10794));
@@ -11734,11 +11734,10 @@ SOLID_ANGLE_UNIT()
 #10798=SURFACE_STYLE_FILL_AREA(#10800);
 #10799=SURFACE_STYLE_FILL_AREA(#10801);
 #10800=FILL_AREA_STYLE('Steel - Satin',(#10802));
-#10801=FILL_AREA_STYLE('Plastic - Matte (Blue)',(#10803));
+#10801=FILL_AREA_STYLE('Plastic - Matte (Red)',(#10803));
 #10802=FILL_AREA_STYLE_COLOUR('Steel - Satin',#10804);
-#10803=FILL_AREA_STYLE_COLOUR('Plastic - Matte (Blue)',#10805);
+#10803=FILL_AREA_STYLE_COLOUR('Plastic - Matte (Red)',#10805);
 #10804=COLOUR_RGB('Steel - Satin',0.627450980392157,0.627450980392157,0.627450980392157);
-#10805=COLOUR_RGB('Plastic - Matte (Blue)',0.188235294117647,0.231372549019608,
-0.588235294117647);
+#10805=COLOUR_RGB('Plastic - Matte (Red)',1.,0.333333333333333,0.);
 ENDSEC;
 END-ISO-10303-21;
