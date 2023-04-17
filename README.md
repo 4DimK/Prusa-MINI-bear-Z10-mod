@@ -15,11 +15,11 @@
 
 ## Introduction
 
-Bear mod adaptation for Prusa MINI(+) based on 10mm Z rods.
+Bear mod adaptation with MK3S print-head for Prusa MINI(+). Based on 10mm Z rods.
 
 ## Features
 
-![MB-iso](PICTURES/ISO.jpg)
+![MB-iso](PICTURES/MB-Z10.png)
 
 - Compatible with Prusa MINI and MINI+
 - Supported (dual) Z-axis based on the stock 10mm rods

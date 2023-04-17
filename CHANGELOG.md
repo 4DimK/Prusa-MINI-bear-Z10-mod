@@ -1,13 +1,23 @@
 # Change Log
 
-## [v1.0] - 08/03/2023
+## [v1.2] - 16/04/2023
+### Changed
+- CAD leadscrew is changed to a proper TR8x4(P2x2) as per [prusa3d](https://github.com/prusa3d/Original-Prusa-MINI/blob/master/DOCUMENTATION/ELECTRONICS/mini-motor-kit.pdf). The z-leadscrew-cap is designed based on that as to properly fit.
+- Remixed the [*official* Prusa double spool holder](https://www.printables.com/model/418764-unofficial-official-prusa-i3-mk3s-spool-holder-not) as to snap into a 2020 extrusion and redesigned the handles from scartch as to make them 3D printable. Under testing.
+    - This allows the use of the [new filament guide](https://www.printables.com/model/451501-mk4-printable-parts/files) as released with the MK4 by Prusa Research.
+
+### Fixed
+- Meanwell RSP320-24 PSU holder: fixed wrong PSU mounting whole diameter (was M3 instead of M4), increased thickness of cover plate. Redesigned the top bracket because it was using the wrong PSU mounting hole.
+- Fixed changelog update dates.
+
+## [v1.1] - 11/04/2023
 ### Changed
 - Recolor CAD files as to better distinguish between frame (black) and printed (orange) parts.
 
 ### Added
-- Meanwell RSP320-24 PSU holder. That should not be necessary for anyone already having a working MINI. Unfortunately I accidentally fried my PSU and I had to replace it with what I had laying around. [updated on 15/04/2023]
+- Meanwell RSP320-24 PSU holder. That should not be necessary for anyone already having a working MINI. Unfortunately I accidentally fried my PSU and I had to replace it with what I had laying around.
 
-## [v1.0] - 08/03/2023
+## [v1.0] - 09/04/2023
 ### Changed
 - MK3S-extruder-body: Added bolt head cavity in the probe holder. 
 - Spool-holder: Increased side diameter to easier insert M4 bolt.
@@ -16,7 +26,7 @@
 - MB-FS-lever: adjusted gap for more reliable operation
 - Increased overall robostuness of remixed electronics case
 
-## [v0.9] - 08/03/2023
+## [v0.9] - 08/04/2023
 ### Added
 - Filament sensor functionality. The following parts are modified.
     - MB-extruder-motor-plate: Extra travel space is accommodated for the FS-lever inverted function.
@@ -41,13 +51,13 @@
 - MB-electronics case: This is now a complete remix of the original design from 3DPGVA. The reason is that there was not enough space to incorporate the extra length of the wires I had and the lead was not closing properly. I took the change to add extra cable covers, inspired both from MK3S as well as the MK4 electronics boxes.
 
 
-## [v0.81] - 06/03/2023
+## [v0.81] - 06/04/2023
 ### Added
 - X-axis-endstop-spacer. The x axis idlers are to be updated as to avoid sensorless homing by side kicking the leadscrew. For versions prior to v0.81 it is recommended to use the spacer on the top X axis rod attached next to right idler as to avoid damaging the Z leadscrew.
 - MB-spool-holder. This is a draft version and is not printed yet. Not even sure if I will be using a top place spool holder. Either way, this remixed out of PR supplied MK3S STL of their spool holder and modded to be attached on 2020 extrusion. There is also an insert with space for M4 bolt. That is meant to incorporate a filament guide.
 - Added PRINT_PROFILES folder. Currently it includes a draft config bundle with only one Bear compatible profile (settings, filament and printer) derived from 0.2mm QUALITY @MINI for 0.4mm nozzle. All settings related to the extruder are copied from the equivalent MK3S profile. STL and SVG of ht the MINI heatbed are included if adding the visuals is of interest. These are directly downloaded from PrusaSlicer github [repo](https://github.com/prusa3d/PrusaSlicer/tree/master/resources/profiles/PrusaResearch).
 
-## [v0.8] - 02/03/2023
+## [v0.8] - 02/04/2023
 ### Added
 - Pictures of the realized mod
 
