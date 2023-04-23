@@ -1,5 +1,15 @@
 # Change Log
 
+## [v1.3] - 24/04/2023
+### Fixed
+- MB-electronics-case:  Increasing the case thickness on all sides made it harder to attached the micro USB cable. Added a cutout that reduced the thickness in the connector area.
+
+### Added
+- PrusaSlicer configuration folders (tested).
+- (optional) LED light bar front brackets with embedded hinge. Model in Printables [here](https://www.printables.com/model/460810-led-bar-front-hinged-prusa-bear).
+- spool holder + (optional) filament guide, as found in Printables [here](https://www.printables.com/model/456501-2-spool-holder-mk3s-style-for-2040-profile)
+- Extruder-idler STL that was missing.
+
 ## [v1.2] - 16/04/2023
 ### Changed
 - CAD leadscrew is changed to a proper TR8x4(P2x2) as per [prusa3d](https://github.com/prusa3d/Original-Prusa-MINI/blob/master/DOCUMENTATION/ELECTRONICS/mini-motor-kit.pdf). The z-leadscrew-cap is designed based on that as to properly fit.
