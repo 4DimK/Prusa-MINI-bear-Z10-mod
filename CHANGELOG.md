@@ -1,5 +1,10 @@
 # Change Log
 
+## [v1.4] - 24/04/2023
+### Fixed
+- Readme E axis assembly link to MK3S+ instead of MK3S.
+
+
 ## [v1.3] - 24/04/2023
 ### Fixed
 - MB-electronics-case:  Increasing the case thickness on all sides made it harder to attached the micro USB cable. Added a cutout that reduced the thickness in the connector area.
