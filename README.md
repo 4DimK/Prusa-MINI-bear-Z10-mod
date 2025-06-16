@@ -1,3 +1,5 @@
+# Since the release of Input Shaper for the MINI, this project is considered deprecated. Leaving it here in case of any interest.
+
 # Prusa-MINI-bear-mod-Z10
 
 ## Table of Contents
@@ -58,7 +60,7 @@ Parts that are not modified:
 
 ### Disclaimer
 
-The Original Prusa MINI(+) is an amazing little printer and as far as I am concerned the print quality is incredible for the price and ease of use. I chose to proceed with this build because as many others, I enjoy tinkering with 3D printers towards the possibility of improvement. In this case, towards a possibly more robust frame, which would (in theory at least) allow to maintain the same quality at higher accelerations with a direct-drive extruder to ease printing of flexible filaments. Keep in mind, as with any DYI assembly, there is always a chance of the final produced print quality to suffer, as it depends on the sourced hardware quality, part design and on the actual skills and experience put into building.
+The Original Prusa MINI(+) is a great little printer and as far as I am concerned the print quality-to-value ratio is incredible for the price and ease of use. I chose to proceed with this build because as many others, I enjoy tinkering with 3D printers towards the possibility of improvement. In this case, towards a possibly more robust frame, which would (in theory at least) allow to maintain the same quality at higher accelerations with a direct-drive extruder to ease printing of flexible filaments. Keep in mind, as with any DYI assembly, there is always a chance of the final produced print quality to suffer, as it depends on the sourced hardware quality, part design and on the actual skills and experience put into building.
 
 ## Post MK4 release thoughts
 
